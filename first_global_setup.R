@@ -10,8 +10,9 @@ use_git_config(user.name = "luksmalto",
 # Criação da "Senha" para o usuário
 create_github_token()
 
-# Colocar a "Senha" no arquivo do R para referências 
+# Colocar a "Senha" no arquivo global do R para referências 
 edit_r_environ()
+# Renviron é um arquivo que pode conter senhas e API´s. seja global ou para projetos específicos
 
 # Verificação se o processo deu certo;
 # Personal access token for "https://github.com": <discovered> 
