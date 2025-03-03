@@ -1,3 +1,5 @@
+# Instruções no link: https://www.youtube.com/watch?v=uQL6NOSd9cc&ab_channel=R-LadiesGoi%C3%A2nia
+
 install.packages("usethis")
 library(usethis)
 
@@ -17,4 +19,10 @@ edit_r_environ()
 git_sitrep()
 
 
+# Repetir sempre para novos projetos --------------------------------------
+
+# inicia o painel do "Git" no Rstudio (Uma vez por cada novo projeto)
 use_git()
+
+# Cria o repositório do nome do projeto no Github (Uma vez por cada novo projeto)
+use_github()
