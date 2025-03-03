@@ -27,3 +27,6 @@ use_git()
 
 # Cria o repositório do nome do projeto no Github (Uma vez por cada novo projeto)
 use_github()
+
+# Criando um arquivo README para instrução ao novo leitor
+use_readme_rmd()
